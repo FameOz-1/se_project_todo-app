@@ -35,9 +35,7 @@ Simple Todo App allows users to manage their daily tasks efficiently. Users can 
 
 ### Screenshots
 
-<!-- Add screenshots or GIFs here -->
-
-![Screenshot of Simple Todo App](images\todo-app-screenshots)
+![Screenshot of Simple Todo App](images/todo-app-screenshots/todo-app/)
 
 ## Deployment
 
