@@ -43,7 +43,8 @@ Simple Todo App allows users to manage their daily tasks efficiently. Users can 
 
 This project is deployed on GitHub Pages:
 
-- [View the live app here](ADD_YOUR_GITHUB_PAGES_LINK_HERE)
+- [View the live app here]
+  https://fameoz-1.github.io/se_project_todo-app/
 
 ---
 
