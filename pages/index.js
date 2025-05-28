@@ -18,6 +18,24 @@ const closeModal = (modal) => {
   modal.classList.remove("popup_visible");
 };
 
+// Adds an event listener for closing popup with Esc key
+const handleEscClose = (evt) => {
+  if (evt.key === "Escape") {
+    closeModal(addTodoPopup);
+    document.removeEventListener("keydown", handleEscClose);
+  }
+};
+
+addTodoButton.addEventListener("click", () => {
+  openModal(addTodoPopup);
+  document.addEventListener("keydown", handleEscClose);
+});
+
+addTodoCloseBtn.addEventListener("click", () => {
+  closeModal(addTodoPopup);
+  document.removeEventListener("keydown", handleEscClose);
+});
+
 // The logic in this function should all be handled in the Todo class.
 const generateTodo = (data) => {
   const todo = new Todo(data, "#todo-template");
