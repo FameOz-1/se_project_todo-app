@@ -37,14 +37,14 @@ Simple Todo App allows users to manage their daily tasks efficiently. Users can 
 
 <!-- Add screenshots or GIFs here -->
 
-![Screenshot of Simple Todo App](images/screenshot.png)
+![Screenshot of Simple Todo App](images\todo-app-screenshots)
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
 - [View the live app here]
-  https://fameoz-1.github.io/se_project_todo-app/
+  (https://fameoz-1.github.io/se_project_todo-app/)
 
 ---
 
