@@ -1,10 +1,10 @@
-# Simple Todo App
+# The Simple Todo App
 
 A simple, interactive to-do list application built with modern JavaScript, CSS, and HTML. This project demonstrates clean code structure, accessibility, and responsive design using BEM methodology and ES6 classes.
 
 ## Description
 
-Simple Todo App allows users to manage their daily tasks efficiently. Users can add new to-do items, mark them as completed or uncompleted, and delete them. Each to-do item can also have an optional due date. The app features a modal form for adding new tasks, real-time form validation, and accessibility enhancements.
+The Simple Todo App allows users to manage their daily tasks efficiently. Users can add new to-do items, mark them as completed or uncompleted, and delete them. Each to-do item can also have an optional due date. The app features a modal form for adding new tasks, real-time form validation, and accessibility enhancements.
 
 ## Features
 
@@ -12,6 +12,7 @@ Simple Todo App allows users to manage their daily tasks efficiently. Users can 
 - Add new to-do items with a name and optional due date
 - Mark tasks as completed or uncompleted
 - Delete tasks
+- **Dynamic todo counter**: See the total number of todos and how many are completed, updated in real time as you interact with the app
 - Unique IDs for each to-do item (using the `uuid` package)
 - Accessible modal popup for adding tasks
 - Form validation with instant feedback
@@ -20,14 +21,15 @@ Simple Todo App allows users to manage their daily tasks efficiently. Users can 
 
 ## Technologies & Techniques
 
-- **JavaScript (ES6+)**: Modular code with ES6 classes (`Todo`, `FormValidator`)
+- **JavaScript (ES6+)**: Modular code with ES6 classes (`Todo`, `FormValidator`, `Section`, `Popup`, `PopupWithForm`, `TodoCounter`)
 - **HTML5 & CSS3**: Semantic markup, BEM methodology for CSS, responsive layout
 - **uuid**: For generating unique IDs for each to-do item
 - **Prettier**: Code formatting
 - **Accessibility**: Keyboard navigation, descriptive `alt` attributes, `:hover` states
+- **Dynamic UI updates**: The todo counter and list update instantly as you add, complete, or delete tasks
 - **Directory Structure**:
   - `blocks/`: BEM CSS blocks
-  - `components/`: JavaScript classes (`Todo.js`, `FormValidator.js`)
+  - `components/`: JavaScript classes (`Todo.js`, `FormValidator.js`, `Section.js`, `Popup.js`, `PopupWithForm.js`, `TodoCounter.js`)
   - `images/`: App images
   - `pages/`: Main CSS file (`index.css`)
   - `vendor/`: `normalize.css`, `fonts.css`, and fonts
